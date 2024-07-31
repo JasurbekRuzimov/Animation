@@ -1,0 +1,94 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(125, 165, 210);
+}
+
+.bogirsoq {
+  width: 80px;
+  margin: auto;
+  margin-bottom: 0px;
+  animation: jump 1s infinite;
+}
+[tozasi]{
+    width: 500px;
+    margin: auto;
+    margin-bottom: -30px;
+    animation: cloud 50s infinite linear;
+}
+@keyframes jump {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
+.bottom {
+  width: 100%;
+  height: 300px;
+  background-color: green;
+}
+
+.cloud {
+  top: 50px;
+  animation: cloud 90s infinite;
+}
+
+.cloud1 {
+  width: 100px;
+  top: 30px;
+  animation: cloud 100s infinite;
+}
+
+.cloud3 {
+  width: 100px;
+  top: 60px;
+  animation: cloud 150s infinite;
+}
+
+.cloud4 {
+  width: 200px;
+  top: 50px;
+  animation: cloud 130s infinite;
+}
+
+@keyframes cloud {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-1000px);
+  }
+}
+
+.sun {
+  animation: sun 10s infinite  ease-in-out;
+}
+
+@keyframes sun {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.all{
+    display: flex;
+}
+
+[daraxt]{
+    width: 20%;
+    margin: auto;
+    margin-bottom: -30px;
+    animation: cloud 50s infinite linear;
+}
